@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-grid {
+            padding: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 50px;
+            border: 5px solid black;
+            background-color: aliceblue;
+        }
+
+        .grid-item img {
+            height: 750px;
+            width: 100%;
+            /* display: block; */
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="image-grid">
+        <div class="grid-container">
+            <div class="grid-item"> <img src="pexels-alexandre-moreira-16575290.jpg" alt=""></div>
+            <div class="grid-item"> <img src="pexels-diana-gracida-20084774.jpg" alt=""></div>
+            <div class="grid-item"> <img src="pexels-dmitry-kharitonov-20099418.jpg" alt=""></div>
+            <div class="grid-item"> <img src="pexels-ricardo-benitez-20174739.jpg" alt=""></div>
+            <div class="grid-item"> <img src="pexels-zero-pamungkas-8498872.jpg" alt=""></div>
+            <div class="grid-item"> <img src="pexels-gül-işık-18110738.jpg" alt=""></div>
+            <div class="grid-item"> <img src="pexels-alexandre-moreira-16575290.jpg" alt=""></div>
+            <div class="grid-item"> <img src="pexels-diana-gracida-20084774.jpg" alt=""></div>
+            <div class="grid-item"> <img src="pexels-dmitry-kharitonov-20099418.jpg" alt=""></div>
+        </div>
+    </section>
+</body>
+
+</html>
